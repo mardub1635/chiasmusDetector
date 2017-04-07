@@ -1,0 +1,42 @@
+%this values displays weights the of (in right order): 
+-10:punctScore/ (in AB and CD)
+-10:softPunctScore/ (in AB and CD only commas)
+-10:isInStopListA/
+-10:isInStopListB/
+-1:diffSize/
+5:sameStringBetween/
+-1:distance/ (between B and C)
+-5:centralPunctScore/ (in BC only hardPuncts)
+2:hasConjBC/
+1:simScore/
+10:relativSimScore/
+2:hasIntoTo/
+2:bigramScore/
+4:trigramScore/
+1:simContCent/
+-5:hasMainsRep/
+0:sameSentAB_CD/
+0:sameSentBC/
+5:sameDepAC_Main/
+0:sameDepAC_All/
+5:sameDepBD_Main/
+0:sameDepBD_All/
+0:govAllIfDepMainAC/
+0:govAllIfDepMainBD/
+0:govMainIfDepMainAC/
+0:govMainIfDepMainBD/
+0:sameDepAB_Main/
+0:sameDepCD_Main/
+0:sameGovAC_All/
+0:sameGovAC_Main/
+0:sameGovBD_All/
+0:sameGovBD_Main/
+2:hasNeg/
+0:sameTagAD/
+0:sameTagBC/
+0:sameTagAC/
+0:sameTagBD/
+0:sameTagABCD/all tags are the same
+10:sameTagABCD_ext/ex JJS==JJR
+-5:sameDepAD_Main/
+-5:sameDepBC_Main/
