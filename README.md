@@ -6,7 +6,9 @@ Software that detects chiasmus (i.e., First shouId be last, last should be first
 python MainS.py myStanfordParsedFile.xml myOutput.xml
 
 Example:
+
 python MainS.py exampleTrue.xml output.xml
+
 xsltproc annotationDoc.xsl output.xml > userFriendlyOutput.txt
 
 LICENCE
