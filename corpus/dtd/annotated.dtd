@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!ELEMENT annotated (category+) >
+<!ATTLIST annotated geneFrom CDATA "" >
+<!ATTLIST category name ID #REQUIRED>
+<!ELEMENT category (chi+) >
+<!ELEMENT chi (wA,wB,extract,cont,sent)>
+<!ELEMENT wA (#PCDATA) >
+<!ATTLIST wA begA CDATA #REQUIRED >
+<!ATTLIST wA endA CDATA #REQUIRED >
+<!ATTLIST wA begD CDATA #REQUIRED >
+<!ATTLIST wA endD CDATA #REQUIRED >
+<!ELEMENT wB (#PCDATA) >
+<!ATTLIST wB begB CDATA #REQUIRED >
+<!ATTLIST wB endB CDATA #REQUIRED >
+<!ATTLIST wB begC CDATA #REQUIRED >
+<!ATTLIST wB endC CDATA #REQUIRED >
+<!ELEMENT extract (#PCDATA) >
+<!ELEMENT cont (#PCDATA) >
+<!ELEMENT sent (#PCDATA) >
+<!ATTLIST sent idA CDATA #REQUIRED >
+<!ATTLIST sent idB CDATA #REQUIRED >
+<!ATTLIST sent idC CDATA #REQUIRED >
+<!ATTLIST sent idD CDATA #REQUIRED >
